@@ -13,13 +13,13 @@ services:
     networks:
       default:
         aliases:
-          - api.wb.local
-          - auth.wb.local
-          - ws.ranger.wb.local
-          - pma.wb.local
-          - eth.wb.local
-          - monitor.wb.local
+          - api.alchetest.com
+          - auth.alchetest.com
+          - ws.ranger.alchetest.com
+          - pma.alchetest.com
+          - eth.alchetest.com
+          - monitor.alchetest.com
     labels:
       traefik.enable: true
-      traefik.frontend.rule: 'Host: monitor.wb.local'
+      traefik.frontend.rule: 'Host: monitor.alchetest.com'
       traefik.port: 8080
