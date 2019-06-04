@@ -1,26 +1,14 @@
-- id:                    usd
-  symbol:                '$'
+#USD
+- id:                    krw
+  symbol:                '￦'
   type:                  fiat
   precision:             2
   base_factor:           1
   enabled:               true
   min_deposit_amount:    0
   min_collection_amount: 0
-  withdraw_limit_24h:    100
-  withdraw_limit_72h:    200
-  deposit_fee:           0
-  withdraw_fee:          0
-
-- id:                    eur
-  symbol:                '€'
-  type:                  fiat
-  precision:             2
-  base_factor:           1
-  enabled:               true
-  min_deposit_amount:    0
-  min_collection_amount: 0
-  withdraw_limit_24h:    100
-  withdraw_limit_72h:    200
+  withdraw_limit_24h:    10000000
+  withdraw_limit_72h:    20000000
   deposit_fee:           0
   withdraw_fee:          0
 
@@ -45,30 +33,5 @@
     allow_multiple_deposit_addresses: false
     api_client: ETH
     json_rpc_endpoint:        http://geth:8545
-    wallet_url_template:      https://rinkeby.etherscan.io/address/#{address}
-    transaction_url_template: https://rinkeby.etherscan.io/tx/#{txid}
-
-- id:                    trst
-  blockchain_key:        eth-rinkeby
-  symbol:                'Ξ'
-  type:                  coin
-  precision:             8
-  base_factor:           1_000_000
-  enabled:               true
-  min_deposit_amount:    0.00021
-  min_collection_amount: 0.00021
-  withdraw_limit_24h:    300
-  withdraw_limit_72h:    600
-  deposit_fee:           0
-  withdraw_fee:          0
-  options:
-    case_sensitive:                   false
-    min_confirmations:                1
-    supports_cash_addr_format:        false
-    supports_hd_protocol:             false
-    allow_multiple_deposit_addresses: false
-    api_client: ERC20
-    json_rpc_endpoint:        http://geth:8545
-    erc20_contract_address:   '0x87099adD3bCC0821B5b151307c147215F839a110'
     wallet_url_template:      https://rinkeby.etherscan.io/address/#{address}
     transaction_url_template: https://rinkeby.etherscan.io/tx/#{txid}
