@@ -1,10 +1,79 @@
-- id:            krweth
+- id:            krwusd
   ask_unit:      krw
-  bid_unit:      eth
-  ask_fee:       0.0015
-  bid_fee:       0.0015
-  ask_precision: 8
-  bid_precision: 8
-  position:      100
+  bid_unit:      usd
+  ask_fee:       0
+  bid_fee:       0
+  ask_precision: 3
+  bid_precision: 3
+  position:      10
   enabled:       true
 
+- id:            krwjpy
+  ask_unit:      krw
+  bid_unit:      jpy
+  ask_fee:       0
+  bid_fee:       0
+  ask_precision: 3
+  bid_precision: 3
+  position:      10
+  enabled:       true
+
+- id:            krweur
+  ask_unit:      krw
+  bid_unit:      eur
+  ask_fee:       0
+  bid_fee:       0
+  ask_precision: 3
+  bid_precision: 3
+  position:      10
+  enabled:       true
+
+- id:            krwcny
+  ask_unit:      krw
+  bid_unit:      cny
+  ask_fee:       0
+  bid_fee:       0
+  ask_precision: 3
+  bid_precision: 3
+  position:      10
+  enabled:       true
+
+- id:            krwgbp
+  ask_unit:      krw
+  bid_unit:      gbp
+  ask_fee:       0
+  bid_fee:       0
+  ask_precision: 3
+  bid_precision: 3
+  position:      10
+  enabled:       true  
+
+- id:            krwaud
+  ask_unit:      krw
+  bid_unit:      aud
+  ask_fee:       0
+  bid_fee:       0
+  ask_precision: 3
+  bid_precision: 3
+  position:      10
+  enabled:       true  
+
+- id:            krwcad
+  ask_unit:      krw
+  bid_unit:      cad
+  ask_fee:       0
+  bid_fee:       0
+  ask_precision: 3
+  bid_precision: 3
+  position:      10
+  enabled:       true      
+
+- id:            krwbrl
+  ask_unit:      krw
+  bid_unit:      brl
+  ask_fee:       0
+  bid_fee:       0
+  ask_precision: 3
+  bid_precision: 3
+  position:      10
+  enabled:       true  

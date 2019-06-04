@@ -4,9 +4,9 @@ root-url: http://api.alchetest.com
 
 currencies: krw,usd
 markets: krwusd
-min-price: 1115
-max-price: 1135
-orders:  100
+min-price: 1100
+max-price: 1200
+orders:  200
 traders: 10
 threads: 5
 management-api-v1-jwt-signer: toolbox

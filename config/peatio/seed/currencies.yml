@@ -2,7 +2,7 @@
 - id:                    krw
   symbol:                '￦'
   type:                  fiat
-  precision:             2
+  precision:             3
   base_factor:           1
   enabled:               true
   min_deposit_amount:    0
@@ -12,13 +12,125 @@
   deposit_fee:           0
   withdraw_fee:          0
 
+- id:                    usd
+  blockchain_key:        eth-rinkeby
+  symbol:                '$'
+  type:                  coin
+  precision:             4
+  base_factor:           1
+  enabled:               true
+  min_deposit_amount:    0
+  min_collection_amount: 0
+  withdraw_limit_24h:    10000
+  withdraw_limit_72h:    30000
+  deposit_fee:           0
+  withdraw_fee:          0
+
+- id:                    jpy
+  blockchain_key:        eth-rinkeby
+  symbol:                '¥'
+  type:                  coin
+  precision:             3
+  base_factor:           1
+  enabled:               true
+  min_deposit_amount:    0
+  min_collection_amount: 0
+  withdraw_limit_24h:    10000
+  withdraw_limit_72h:    30000
+  deposit_fee:           0
+  withdraw_fee:          0
+
+- id:                    eur
+  blockchain_key:        eth-rinkeby
+  symbol:                '€'
+  type:                  coin
+  precision:             3
+  base_factor:           1
+  enabled:               true
+  min_deposit_amount:    0
+  min_collection_amount: 0
+  withdraw_limit_24h:    10000
+  withdraw_limit_72h:    30000
+  deposit_fee:           0
+  withdraw_fee:          0
+
+- id:                    aud
+  blockchain_key:        eth-rinkeby
+  symbol:                '$'
+  type:                  coin
+  precision:             4
+  base_factor:           1
+  enabled:               true
+  min_deposit_amount:    0
+  min_collection_amount: 0
+  withdraw_limit_24h:    10000
+  withdraw_limit_72h:    30000
+  deposit_fee:           0
+  withdraw_fee:          0
+
+- id:                    cny
+  blockchain_key:        eth-rinkeby
+  symbol:                '元'
+  type:                  coin
+  precision:             3
+  base_factor:           1
+  enabled:               true
+  min_deposit_amount:    0
+  min_collection_amount: 0
+  withdraw_limit_24h:    10000
+  withdraw_limit_72h:    30000
+  deposit_fee:           0
+  withdraw_fee:          0
+
+- id:                    cad
+  blockchain_key:        eth-rinkeby
+  symbol:                '$'
+  type:                  coin
+  precision:             3
+  base_factor:           1
+  enabled:               true
+  min_deposit_amount:    0
+  min_collection_amount: 0
+  withdraw_limit_24h:    10000
+  withdraw_limit_72h:    30000
+  deposit_fee:           0
+  withdraw_fee:          0
+
+- id:                    gbp
+  blockchain_key:        eth-rinkeby
+  symbol:                '£'
+  type:                  coin
+  precision:             3
+  base_factor:           1
+  enabled:               true
+  min_deposit_amount:    0
+  min_collection_amount: 0
+  withdraw_limit_24h:    10000
+  withdraw_limit_72h:    30000
+  deposit_fee:           0
+  withdraw_fee:          0  
+
+- id:                    brl
+  blockchain_key:        eth-rinkeby
+  symbol:                '$'
+  type:                  coin
+  precision:             3
+  base_factor:           1
+  enabled:               true
+  min_deposit_amount:    0
+  min_collection_amount: 0
+  withdraw_limit_24h:    10000
+  withdraw_limit_72h:    30000
+  deposit_fee:           0
+  withdraw_fee:          0  
+
 - id:                    eth
   blockchain_key:        eth-rinkeby
   symbol:                'Ξ'
   type:                  coin
   precision:             8
   base_factor:           1_000_000_000_000_000_000
-  enabled:               true
+  enabled:               false
   min_deposit_amount:    0.00021
   min_collection_amount: 0.00021
   withdraw_limit_24h:    0.2
